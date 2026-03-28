@@ -51,7 +51,6 @@ A premium executive dashboard for health intelligence.
 
 ### Dashboard Sections
 ### 🟢 Header
-- Clair Health branding
 - platform status
 - real-time refresh timestamp
 
