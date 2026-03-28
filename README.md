@@ -42,17 +42,10 @@ A premium executive dashboard for health intelligence.
     <td><b>Interest Selection</b></td>
   </tr>
   <tr>
-    <td><img src="./UI/home_page.jpeg" width="400"/></td>
-    <td><img src="./UI/interest_selection.jpeg" width="400"/></td>
+    <td><img src="./UI/image1.png" width="400"/></td>
+    <td><img src="./UI/image2.png" width="400"/></td>
   </tr>
   <tr>
-    <td><b>Filters Page</b></td>
-    <td><b>Trip Plans Page</b></td>
-  </tr>
-  <tr>
-    <td><img src="./UI/trip_plans.jpeg" width="400"/></td>
-    <td><img src="./UI/customizable_plan.jpeg" width="400"/></td>
-  </tr>
 </table>
 
 
