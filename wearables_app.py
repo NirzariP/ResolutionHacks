@@ -19,7 +19,7 @@ os.environ.setdefault("ANTHROPIC_API_KEY", "")
 # ─────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Clair Health — Health Intelligence Platform",
+    page_title="Health Intelligence Platform",
     page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded",
@@ -214,7 +214,7 @@ def gcal_create(svc, title, start_dt, end_dt):
     try:
         svc.events().insert(calendarId="primary", body={
             "summary": title,
-            "description": "Added by Clair Health Platform",
+            "description": "Added by Health Platform",
             "start": {"dateTime": start_dt.isoformat(), "timeZone": "America/New_York"},
             "end":   {"dateTime": end_dt.isoformat(),   "timeZone": "America/New_York"},
         }).execute()
@@ -533,7 +533,6 @@ def main():
     st.markdown("""
     <div style="border-bottom:1px solid #1e2d3d; padding-bottom:16px; margin-bottom:24px;">
       <div style="font-size:1.35em; font-weight:700; color:#e8edf2; letter-spacing:0.02em;">
-        CLAIR HEALTH
       </div>
       <div style="font-size:0.75em; color:#3d6b8a; letter-spacing:0.1em; text-transform:uppercase; margin-top:2px;">
         Health Intelligence Platform &nbsp;|&nbsp; Autonomous Biometric Intervention
@@ -765,7 +764,7 @@ in the application directory, then refresh.
     <div style="margin-top:40px;border-top:1px solid #1e2d3d;padding-top:14px;
                 font-size:.68em;color:#2a3d50;letter-spacing:.06em;
                 display:flex;justify-content:space-between;">
-      <span>CLAIR HEALTH  &nbsp;|&nbsp;  Health Intelligence Platform</span>
+      <span>&nbsp;|&nbsp;  Health Intelligence Platform</span>
       <span>Data: Personal Health  /  Activity  /  Digital Interaction</span>
     </div>
     """, unsafe_allow_html=True)
