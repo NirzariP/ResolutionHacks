@@ -145,7 +145,7 @@ The ML model predicts:
 ## 🏗️ Project Architecture
 
 ```text
-Vital-IQ/
+/ResolutionHacks
 │
 ├── app.py                         # Streamlit health intelligence platform
 ├── model_training.ipynb          # ML pipeline notebook
@@ -255,13 +255,6 @@ This generates:
 token.json
 ```
 
-### Features
-- read daily events
-- move meetings
-- insert new wellness events
-- sync recovery blocks
-- real-time schedule optimization
-
 ---
 
 ## ▶️ How to Run Locally
@@ -325,30 +318,11 @@ print(result)
 }
 ```
 
----
-
-## 📌 Business Use Cases
-Perfect for:
-
-- 🏢 corporate wellness platforms
-- 🏥 digital health startups
-- ⌚ wearable health analytics
-- 🤖 autonomous productivity assistants
-- 📅 AI meeting optimization
-- 🧘 employee burnout prevention
-- 💼 HR wellness intelligence
-
----
 
 ## 🔮 Future Enhancements
 - LLM-powered health coach
 - SHAP explainability dashboard
-- anomaly forecasting
-- time-series health prediction (LSTM/Transformer)
-- wearable API integration (Apple Health / Fitbit / Garmin)
-- Slack/Teams intervention bot
-- enterprise admin dashboards
-- population health analytics
+- time-series health prediction
 
 ---
 
